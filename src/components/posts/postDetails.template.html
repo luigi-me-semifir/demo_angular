@@ -1,0 +1,10 @@
+<h1>Détails de notre Post</h1>
+
+<div ng-if="$ctrl.loading">Chargement...</div>
+<div ng-if="$ctrl.error">{{$ctrl.error}}</div>
+
+<div ng-if="$ctrl.post">
+  <h2>{{$ctrl.post.title}}</h2>
+  <p>{{$ctrl.post.body}}</p>
+  <a href="#!/">Retour à la liste des articles</a>
+</div>

@@ -1,0 +1,7 @@
+<h1>Liste des posts</h1>
+<ul>
+  <li ng-repeat="post in $ctrl.posts">
+    <h2><a href="#!/post/{{post.id}}">{{ post.title}}</a></h2>
+    <p>{{post.body}}</p>
+  </li>
+</ul>
