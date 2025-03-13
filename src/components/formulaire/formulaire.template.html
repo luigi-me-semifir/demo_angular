@@ -1,0 +1,14 @@
+<h1>Ajout de Posts</h1>
+
+<form ng-submit="$ctrl.register()">
+  <label> Titre</label>
+  <input type="text" ng-model="$ctrl.posts.title" required />
+  <label> article</label>
+  <input type="text" ng-model="$ctrl.posts.body" required />
+  <button type="submit">Ajout</button>
+</form>
+
+<p style="color: green" ng-if="$ctrl.successMessage">
+  {{$ctrl.successMessage}}
+</p>
+<p style="color: red" ng-if="$ctrl.errorMessage">{{$ctrl.errorMessage}}</p>

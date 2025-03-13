@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": "0077",
+      "title": "test 2",
+      "body": "ceci est un nouveau test"
+    },
+    {
+      "id": "8c09",
+      "title": "Test",
+      "body": "Ceci est un test"
+    },
+    {
+      "id": "0ec3",
+      "title": "article 18",
+      "body": "Je suis l'article 18"
+    }
+  ],
+  "users": [
+    {
+      "id": "be17",
+      "name": "Luigi",
+      "mail": "luigi@toto.com"
+    }
+  ]
+}

@@ -3,5 +3,6 @@
   <li ng-repeat="post in $ctrl.posts">
     <h2><a href="#!/post/{{post.id}}">{{ post.title}}</a></h2>
     <p>{{post.body}}</p>
+    <button ng-click="$ctrl.confirmDelete(post.id)">Supprimer</button>
   </li>
 </ul>
